@@ -1,3 +1,8 @@
 class BankAccount
-
+  attr_accessor :name, :balance
+  
+  def initilize(name)
+    @name = name
+    @balance = 1000
+  end  
 end
