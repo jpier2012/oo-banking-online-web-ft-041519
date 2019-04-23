@@ -14,5 +14,5 @@ class Transfer
 
   def execute_transaction
 
-  emd
+  end
 end
