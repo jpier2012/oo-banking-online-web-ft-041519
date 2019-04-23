@@ -28,5 +28,6 @@ class Transfer
       self.receiver.balance -= transfer_amount
       self.sender.balance += transfer_amount
       self.status = 'reversed'
+    emd
   end
 end
