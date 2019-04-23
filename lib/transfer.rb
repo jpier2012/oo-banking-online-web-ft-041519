@@ -5,5 +5,6 @@ class Transfer
     @transfer_amount = transfer_amount
     @sender = sender
     @receiver = receiver
+    @status = status
   end
 end
